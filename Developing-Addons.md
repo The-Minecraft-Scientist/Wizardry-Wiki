@@ -25,7 +25,9 @@ First you'll need to download the version of wizardry you wish to make a spell p
 
 > Minor updates to wizardry shouldn't break the API, meaning that an addon written for 4.1.0 will work with 4.1.1, 4.1.2, etc. but not 4.2.x. However, the reverse is not necessarily true: if you use a new feature that was added in a minor patch, your addon won't work in older versions.
 
-Next, make a folder called `libs` inside your project folder (the one with build.gradle in) and put the wizardry jar in there. Now if you launch Minecraft in your development environment, wizardry should be fully working in-game.
+Next, make a folder called `libs` inside your project folder (the one with build.gradle in) and put the wizardry jar in there. Now if you launch Minecraft in your development environment, wizardry should be fully working in-game. 
+
+> If you are using Eclipse, you may need to put Wizardry in the same folder as your build.gradle, instead of the `libs` folder 
 
 However, if you look inside the wizardry jar and open up any of the classes you'll notice they're completely unreadable. To get a readable version, you'll need to attach the source code. The source code for all versions can be downloaded as a `.zip` from GitHub as follows:
 
